@@ -1,7 +1,9 @@
 body {
   height: 100vh;
-  padding-top: 100px;
+  padding-top: 70px;
 }
+
+/* navbar */
 
 .navbar-default {
   background-color: #90BE42; /**/
@@ -17,10 +19,11 @@ body {
 
 nav div.container {
   min-height: 90px;
+  max-width: 1050px;
 }
 
-#logo {
-  height: 280%;
+#logo-header {
+  height: 290%;
   width: auto;
 }
 
@@ -28,17 +31,60 @@ nav ul {
   font-size: 1.4em;
 }
 
+/* end navbar */
+
+/* jumbotron */
+
+#home-image {
+  background-image: url("assets/home-image.jpg");
+}
+
+.jumbotron {
+  background-color: transparent;
+  color: white;
+}
+
+.jumbotron h3 {
+  text-shadow: 1px 1px grey;
+}
+
+/* end jumbotron */
+
+/* media queries */
+
 @media screen and (min-width: 768px) {
   #navbar ul {
-    margin-top: 35px;
+    margin-top: 3%;
+    float: right;
+  }
+  .jumbotron {
+    background-color: transparent;
+    color: white;
+    width: 70%;
   }
 }
+
+/* end media queries */
+
+/* footer */
 
 .footer {
   position: absolute;
   bottom: 0;
   width: 100%;
   /* Set the fixed height of the footer here */
-  height: 60px;
-  background-color: #90BE42;
+  height: 200px;
+  background-color: #383937;
+  padding-top: 25px;
 }
+
+.footer p {
+  color: white;
+}
+
+#logo-footer {
+  height: 3.5em;
+  width: auto;
+}
+
+/* end footer */
