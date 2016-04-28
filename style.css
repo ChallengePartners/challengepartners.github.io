@@ -1,6 +1,7 @@
 body {
   min-height: 2000px;
   padding-top: 70px;
+  color: white;
 }
 
 .navbar-default {
@@ -15,4 +16,33 @@ body {
 #logo {
   height: 150%;
   width: auto;
+}
+
+.carousel{
+    background: #2f4357;
+    margin-top: 20px;
+}
+.carousel .item img{
+    margin: 0 auto; /* Align slide image horizontally center */
+}
+
+.carousel .item {
+  /*box-shadow: 50px 50px 50px 50px black inset;*/
+  height: 300px;
+  background-size: contain;
+
+  background-image: url('./assets/home-image.jpg') ;
+}
+.carousel-text-container{
+  padding-top: 60px;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.bs-example{
+	margin: 20px;
+}
+.carousel-text {
+  text-align: center;
+  font-size: 20px;
 }
