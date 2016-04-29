@@ -180,9 +180,26 @@ nav ul {
 
 .what-we-do h5 {
   font-size: 1.5em;
+  line-height: 1.5em;
 }
 
 #info {
   position: relative;
   top: -30px;
+}
+
+.titles {
+  margin-left: 30px;
+  color: #90be42;
+}
+
+#arrows {
+  width: 50%;
+}
+
+.labels{
+  position: relative;
+  top: -20px;
+  text-align: center;
+  color: #373B33;
 }
