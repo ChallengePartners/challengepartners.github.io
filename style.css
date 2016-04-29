@@ -9,6 +9,7 @@ body {
 
 .navbar-default {
   background-color: #90BE42; /**/
+  border: none;
 }
 
 .navbar-default .navbar-nav>li>a {
@@ -63,7 +64,6 @@ nav ul {
   .jumbotron {
     background-color: transparent;
     color: white;
-    width: 70%;
   }
 }
 
