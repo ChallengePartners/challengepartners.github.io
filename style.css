@@ -123,18 +123,19 @@ nav ul {
 }
 
 #events1 {
-  background-image: url('./assets/teachersmeeting.jpg')
+  background-image: url('./assets/teaching4.jpg');
 }
 #events2 {
-  background-image: url('./assets/teachersmeeting2.jpg')
+  background-image: url('./assets/teachersmeeting2.jpg');
+  background-size: 100%;
 }
 #events3 {
-  background-image: url('./assets/programmes.jpg')
+  background-image: url('./assets/teaching3.jpg')
 }
 
 #programmes1 {
-
-  background-image: url('./assets/Teaching.jpg')
+  background-image: url('./assets/Teaching.jpg');
+  background-size: 100%;
 }
 
 #programmes2 {
@@ -142,7 +143,8 @@ nav ul {
 }
 
 #programmes3 {
-  background-image: url('./assets/teachersmeeting.jpg')
+  background-image: url('./assets/teaching5.jpg');
+  background-size: 100%;
 }
 #impact1{
   background-image: url('./assets/ourimpact.png')
