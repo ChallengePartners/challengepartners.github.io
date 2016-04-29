@@ -2,7 +2,7 @@ body {
   height: 100vh;
   padding-top: 70px;
   color: black;
-  background-color: white;
+  background-color: #F5F6F3;
 }
 
 /* navbar */
@@ -12,7 +12,7 @@ body {
 }
 
 .navbar-default .navbar-nav>li>a {
-    color: white;
+    color: #F5F6F3;
 }
 
 .navbar-header {
@@ -70,10 +70,6 @@ nav ul {
 /* end media queries */
 
 /* footer */
-/*.footer {
-  height: 60px;
-  background-color: #90BE42;
-}*/
 
 .footer {
   bottom: 0;
