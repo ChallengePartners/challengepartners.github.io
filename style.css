@@ -5,6 +5,8 @@ body {
   background-color: black;
 }
 
+/* navbar */
+
 .navbar-default {
   background-color: #90BE42; /**/
 }
@@ -13,11 +15,84 @@ body {
     color: white;
 }
 
+.navbar-header {
+  min-height: 90px;
+}
 
-#logo {
-  height: 150%;
+nav div.container {
+  min-height: 90px;
+  max-width: 1050px;
+}
+
+#logo-header {
+  height: 290%;
   width: auto;
 }
+
+
+nav ul {
+  font-size: 1.4em;
+}
+
+/* end navbar */
+
+/* jumbotron */
+
+#home-image {
+  background-image: url("assets/home-image.jpg");
+}
+
+.jumbotron {
+  background-color: transparent;
+  color: white;
+}
+
+.jumbotron h3 {
+  text-shadow: 1px 1px grey;
+}
+
+/* end jumbotron */
+
+/* media queries */
+
+@media screen and (min-width: 768px) {
+  #navbar ul {
+    margin-top: 3%;
+    float: right;
+  }
+  .jumbotron {
+    background-color: transparent;
+    color: white;
+    width: 70%;
+  }
+}
+
+/* end media queries */
+
+/* footer */
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 250px;
+  background-color: #383937;
+  padding: 25px 0px 25px 0px;
+}
+
+.footer p {
+  color: white;
+}
+
+#logo-footer {
+  height: 3.5em;
+  width: auto;
+}
+
+/* end footer */
+
+/*carousel*/
 
 .carousel{
     background: #2f4357;
@@ -46,11 +121,3 @@ body {
 .carousel-text {
   text-align: center;
   font-size: 20px;
-.footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  /* Set the fixed height of the footer here */
-  height: 60px;
-  background-color: #90BE42;
-}
